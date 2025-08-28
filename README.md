@@ -81,8 +81,10 @@ The application features a clean, modern interface with:
 - Bidirectional input fields
 - Real-time conversion results
 
-![Screenshot 1](Screenshot%20from%202025-08-16%2014-14-46.png)
-![Screenshot 2](Screenshot%20from%202025-08-16%2014-15-23.png)
+![Screenshot 1]<img width="550" height="687" alt="Screenshot from 2025-08-16 14-15-23" src="https://github.com/user-attachments/assets/5aa20036-321c-46d6-8071-a4fc64062ac9" />
+
+![Screenshot 2]<img width="548" height="685" alt="Screenshot from 2025-08-16 14-14-46" src="https://github.com/user-attachments/assets/3f6e382a-15ca-4a3d-9cf9-607249d99837" />
+
 
 ## 🏗️ Architecture
 
@@ -104,18 +106,10 @@ The application features a clean, modern interface with:
 
 ### Project Structure
 ```
-├── unitConverter.go          # Main application code
 ├── go.mod                    # Go module definition
 ├── go.sum                    # Dependency checksums
 ├── icon.png                  # Application icon
-├── Makefile                  # Build and installation scripts
-├── unitConverter/            # Distribution package
-│   ├── Makefile
-│   └── usr/local/
-│       ├── bin/unitConverter
-│       └── share/
-│           ├── applications/unitConverter.desktop
-│           └── pixmaps/unitConverter.png
+├── unitConverter.go          # main Go file
 └── README.md                 # This file
 ```
 
