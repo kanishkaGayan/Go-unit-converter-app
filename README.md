@@ -44,8 +44,7 @@ This application is officially listed on the [Fyne.io Apps Showcase](https://app
 #### Option 1: Build from Source
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd Exercise-03-Unit-Converter-App
+git clone https://github.com/kanishkaGayan/Go-unit-converter-app.git
 
 # Build the application
 go build -o unitConverter unitConverter.go
